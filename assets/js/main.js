@@ -48,7 +48,7 @@ const plusMinusButtons = document.querySelectorAll('.button');
 
 plusMinusButtons.forEach(function(thisButton) {
     thisButton.addEventListener('click', function(e) {
-        const currentTargetText = e.currentTarget.parentElement.parentElement.childNodes[1];
+        const currentTargetText = e.currentTarget.parentElement.parentElement.childNodes[1];       
         currentTargetText.classList.toggle('active');
     });
 });
